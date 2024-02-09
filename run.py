@@ -55,7 +55,7 @@ def login_cookie(cookie):
             print(Echo("paket data",1))
             #gunakan data
     except:
-        exit(echo_eror("Cookie expired",1))
+        exit(Echo("Cookie expired",1))
 def ubah_bahasa(cookie):
     url = ses.get("https://mbasic.facebook.com/language/",cookies={"cookie": cookie})
     bs4 = BeautifulSoup(url.text,"html.parser")
