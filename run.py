@@ -18,6 +18,7 @@ mp = "\033[101m\033[1;37m"
 hp = "\033[1;7m"
 n = "\n"
 
+import os,sys
 
 #modul
 try:
